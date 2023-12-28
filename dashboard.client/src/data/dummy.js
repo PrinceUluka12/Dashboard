@@ -29,7 +29,7 @@ export const gridOrderImage = (props) => (
   <div>
     <img
       className="rounded-xl h-20 md:ml-3"
-      src={props.ProductImage}
+      src={props.productImage}
       alt="order-item"
     />
   </div>
@@ -38,7 +38,7 @@ export const gridOrderImage = (props) => (
 export const gridOrderStatus = (props) => (
   <button
     type="button"
-    style={{ background: props.StatusBg }}
+    style={{ background: props.statusBg }}
     className="text-white py-1 px-2 capitalize rounded-2xl text-md"
   >
     {props.Status}
@@ -64,20 +64,23 @@ export const kanbanGrid = [
     allowToggle: true },
 ];
 const gridEmployeeProfile = (props) => (
+  
   <div className="flex items-center gap-2">
     <img
       className="rounded-full w-10 h-10"
-      src={props.EmployeeImage}
+      
+      src={"data:image/png;base64,"+ props.employeeImage}
       alt="employee"
     />
-    <p>{props.Name}</p>
+    
+    <p>{props.name}</p>
   </div>
 );
 
 const gridEmployeeCountry = (props) => (
   <div className="flex items-center justify-center gap-2">
     <GrLocation />
-    <span>{props.Country}</span>
+    <span>{props.country}</span>
   </div>
 );
 export const EditorData = () => (
@@ -440,12 +443,12 @@ export const employeesGrid = [
     width: '150',
     template: gridEmployeeProfile,
     textAlign: 'Center' },
-  { field: 'Name',
+  { field: 'name',
     headerText: '',
     width: '0',
     textAlign: 'Center',
   },
-  { field: 'Title',
+  { field: 'title',
     headerText: 'Designation',
     width: '170',
     textAlign: 'Center',
@@ -455,17 +458,17 @@ export const employeesGrid = [
     textAlign: 'Center',
     template: gridEmployeeCountry },
 
-  { field: 'HireDate',
+  { field: 'hireDate',
     headerText: 'Hire Date',
     width: '135',
     format: 'yMd',
     textAlign: 'Center' },
 
-  { field: 'ReportsTo',
+  { field: 'reportsTo',
     headerText: 'Reports To',
     width: '120',
     textAlign: 'Center' },
-  { field: 'EmployeeID',
+  { field: 'employeeID',
     headerText: 'Employee ID',
     width: '125',
     textAlign: 'Center' },
@@ -560,11 +563,10 @@ export const links = [
   },
 ];
 
-export const fetchData = async () => {
+export let  fetchData = async () => {
   const response = await fetch('https://localhost:5113/api/EmployeesData');
-  return response.json();
+  response.json();
 }
-
 
 export const cartData = [
   {
@@ -886,19 +888,19 @@ export const ordersGrid = [
     width: '120',
   },
   {
-    field: 'OrderItems',
+    field: 'orderItems',
     headerText: 'Item',
     width: '150',
     editType: 'dropdownedit',
     textAlign: 'Center',
   },
-  { field: 'CustomerName',
+  { field: 'customerName',
     headerText: 'Customer Name',
     width: '150',
     textAlign: 'Center',
   },
   {
-    field: 'TotalAmount',
+    field: 'totalAmount',
     headerText: 'Total Amount',
     format: 'C2',
     textAlign: 'Center',
@@ -908,19 +910,19 @@ export const ordersGrid = [
   {
     headerText: 'Status',
     template: gridOrderStatus,
-    field: 'OrderItems',
+    field: 'orderItems',
     textAlign: 'Center',
     width: '120',
   },
   {
-    field: 'OrderID',
+    field: 'orderID',
     headerText: 'Order ID',
     width: '120',
     textAlign: 'Center',
   },
 
   {
-    field: 'Location',
+    field: 'location',
     headerText: 'Location',
     width: '150',
     textAlign: 'Center',
