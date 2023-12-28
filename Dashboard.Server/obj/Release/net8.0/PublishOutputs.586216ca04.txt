@@ -1,0 +1,13 @@
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Dashboard.Server.exe
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Dashboard.Server.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Dashboard.Server.deps.json
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Dashboard.Server.runtimeconfig.json
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Dashboard.Server.pdb
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Prince\Desktop\Learning\Dashboard\Dashboard.Server\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
